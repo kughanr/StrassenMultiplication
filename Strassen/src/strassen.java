@@ -311,8 +311,8 @@ public class strassen {
     	//plot strassen
     	JFreeChart chart = ChartFactory.createXYLineChart(
     	        "Strassen Chart", // Chart title
-    	        "X-Axis", // X-Axis Label
-    	        "Y-Axis", // Y-Axis Label
+    	        "Run Time", // X-Axis Label
+    	        "Dimension of Matrix", // Y-Axis Label
     	        strassenData,
     	        PlotOrientation.VERTICAL ,
     	        true , true , false);
